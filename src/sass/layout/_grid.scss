@@ -1,3 +1,14 @@
 /* ********* */
 /* @GRID*/
 /* ********* */
+
+.landing{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+
+    &__izquierda{
+        display: grid;
+        grid-template-rows: 1fr  400px 1fr;
+        row-gap: 50px;
+    }
+}
